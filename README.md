@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,9 @@
             color: white;
             padding: 20px;
             text-align: center;
+        }
+        nav {
+            margin: 10px 0;
         }
         nav a {
             margin: 0 15px;
@@ -39,6 +42,17 @@
             bottom: 0;
             width: 100%;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +63,7 @@
         <a href="#home">Startseite</a>
         <a href="#services">Dienstleistungen</a>
         <a href="#about">Über uns</a>
+        <a href="#contact">Kontakt</a>
     </nav>
 </header>
 
@@ -59,17 +74,42 @@
 
 <div class="container" id="services">
     <h2>Dienstleistungen</h2>
-    <p>Wir bieten verschiedene Dienstleistungen im Bereich erneuerbare Energien an, einschließlich:</p>
-    <ul>
-        <li>Beratung zu erneuerbaren Energien</li>
-        <li>Installation von Solaranlagen</li>
-        <li>Energiemanagement</li>
-    </ul>
+    <div class="grid">
+        <div class="card">
+            <h3>Beratung</h3>
+            <p>Beratung zu erneuerbaren Energien.</p>
+        </div>
+        <div class="card">
+            <h3>Installation</h3>
+            <p>Installation von Solaranlagen.</p>
+        </div>
+        <div class="card">
+            <h3>Energiemanagement</h3>
+            <p>Effizientes Energiemanagement für Unternehmen.</p>
+        </div>
+        <div class="card">
+            <h3>Wartung</h3>
+            <p>Regelmäßige Wartung und Überprüfung.</p>
+        </div>
+    </div>
 </div>
 
 <div class="container" id="about">
     <h2>Über uns</h2>
     <p>Deevl ist Ihr Partner für eine nachhaltige Zukunft. Wir arbeiten daran, die Welt mit erneuerbaren Energien zu versorgen.</p>
+</div>
+
+<div class="container" id="contact">
+    <h2>Kontakt</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Nachricht:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br><br>
+        <input type="submit" value="Absenden">
+    </form>
 </div>
 
 <footer>
