@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Shop</title>
+    <title>Deevl - Erneuerbare Energien</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,11 +14,8 @@
         header {
             background: #007BFF;
             color: white;
-            padding: 10px 0;
+            padding: 20px;
             text-align: center;
-        }
-        nav {
-            margin: 10px 0;
         }
         nav a {
             margin: 0 15px;
@@ -33,15 +30,9 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        .product {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
         footer {
             text-align: center;
-            padding: 10px 0;
+            padding: 10px;
             background: #007BFF;
             color: white;
             position: relative;
@@ -53,46 +44,36 @@
 <body>
 
 <header>
-    <h1>Willkommen in meinem Shop!</h1>
+    <h1>Willkommen bei Deevl</h1>
     <nav>
         <a href="#home">Startseite</a>
-        <a href="#shop">Shop</a>
-        <a href="#info">Informationen</a>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#about">Über uns</a>
     </nav>
 </header>
 
 <div class="container" id="home">
     <h2>Startseite</h2>
-    <p>Hier findest du die besten Produkte zu tollen Preisen!</p>
+    <p>Hier bei Deevl setzen wir uns für erneuerbare Energien und nachhaltige Lösungen ein.</p>
 </div>
 
-<div class="container" id="shop">
-    <h2>Shop</h2>
-    <div class="product">
-        <h3>Produkt 1</h3>
-        <p>Beschreibung von Produkt 1.</p>
-        <p>Preis: 19,99 €</p>
-    </div>
-    <div class="product">
-        <h3>Produkt 2</h3>
-        <p>Beschreibung von Produkt 2.</p>
-        <p>Preis: 29,99 €</p>
-    </div>
-    <div class="product">
-        <h3>Produkt 3</h3>
-        <p>Beschreibung von Produkt 3.</p>
-        <p>Preis: 39,99 €</p>
-    </div>
+<div class="container" id="services">
+    <h2>Dienstleistungen</h2>
+    <p>Wir bieten verschiedene Dienstleistungen im Bereich erneuerbare Energien an, einschließlich:</p>
+    <ul>
+        <li>Beratung zu erneuerbaren Energien</li>
+        <li>Installation von Solaranlagen</li>
+        <li>Energiemanagement</li>
+    </ul>
 </div>
 
-<div class="container" id="info">
-    <h2>Informationen</h2>
-    <p>Hier kannst du Informationen über unseren Shop und unsere Produkte finden.</p>
-    <p>Wir bieten eine Vielzahl von Produkten zu wettbewerbsfähigen Preisen.</p>
+<div class="container" id="about">
+    <h2>Über uns</h2>
+    <p>Deevl ist Ihr Partner für eine nachhaltige Zukunft. Wir arbeiten daran, die Welt mit erneuerbaren Energien zu versorgen.</p>
 </div>
 
 <footer>
-    <p>&copy; 2024 Mein Shop. Alle Rechte vorbehalten.</p>
+    <p>&copy; 2024 Deevl. Alle Rechte vorbehalten.</p>
 </footer>
 
 </body>
